@@ -369,9 +369,9 @@ export const navBarConfig: NavBarConfig = {
 };
 
 export const profileConfig: ProfileConfig = {
-	avatar: "assets/images/avatar.webp", // 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
-	name: "まつざか ゆき",
-	bio: "世界は大きい、君は行かなければならない",
+	avatar: "https://zers.xian5.de5.net/images/asset/themes/fuwari/avatar.png?v=1773756359", //      assets/images/avatar.webp 相对于 /src 目录。如果以 '/' 开头，则相对于 /public 目录
+	name: "卓尔伤",
+	bio: "世界那么大，你来看看我",
 	typewriter: {
 		enable: true, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
@@ -380,27 +380,27 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Bilibili",
 			icon: "fa7-brands:bilibili",
-			url: "https://space.bilibili.com/701864046",
+			url: "https://space.bilibili.com/359800025",
 		},
 		{
 			name: "Gitee",
 			icon: "mdi:git",
-			url: "https://gitee.com/matsuzakayuki",
+			url: "https://gitee.com/zers",
 		},
 		{
 			name: "GitHub",
 			icon: "fa7-brands:github",
-			url: "https://github.com/matsuzaka-yuki",
+			url: "https://github.com/Zhuoershang",
 		},
 		{
 			name: "Codeberg",
 			icon: "simple-icons:codeberg",
-			url: "https://codeberg.org",
+			url: "https://mblog.xian5.de5.net",
 		},
 		{
 			name: "Discord",
 			icon: "fa7-brands:discord",
-			url: "https://discord.gg/MqW6TcQtVM",
+			url: "https://mblog.xian5.de5.net",
 		},
 	],
 };
@@ -448,7 +448,7 @@ export const expressiveCodeConfig: ExpressiveCodeConfig = {
 };
 
 export const commentConfig: CommentConfig = {
-	enable: false, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
+	enable: true, // 启用评论功能。当设置为 false 时，评论组件将不会显示在文章区域。
 	system: "twikoo", // 评论系统选择: "twikoo" | "giscus"
 	twikoo: {
 		envId: "https://twikoo.vercel.app",
@@ -476,7 +476,7 @@ export const shareConfig: ShareConfig = {
 
 export const announcementConfig: AnnouncementConfig = {
 	title: "", // 公告标题，填空使用i18n字符串Key.announcement
-	content: "ブログへようこそ！これはサンプルの告知です", // 公告内容
+	content: "欢迎游玩", // 公告内容
 	closable: true, // 允许用户关闭公告
 	link: {
 		enable: true, // 启用链接
