@@ -21,13 +21,13 @@ import { LinkPreset } from "./types/config";
 // 移除i18n导入以避免循环依赖
 
 // 定义站点语言
-const SITE_LANG = "en"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
+const SITE_LANG = "zh_CN"; // 语言代码，例如：'en', 'zh_CN', 'ja' 等。
 const SITE_TIMEZONE = 8; //设置你的网站时区 from -12 to 12 default in UTC+8
 export const siteConfig: SiteConfig = {
-	title: "Mizuki",
-	subtitle: "One demo website",
-	siteURL: "https://mizuki.mysqil.com/", // 请替换为你的站点URL，以斜杠结尾
-	siteStartDate: "2025-01-01", // 站点开始运行日期，用于站点统计组件计算运行天数
+	title: "ZERS",
+	subtitle: "卓尔伤的Blog",
+	siteURL: "https://mblog.xian5.de5.net/", // 请替换为你的站点URL，以斜杠结尾
+	siteStartDate: "2026-04-26", // 站点开始运行日期，用于站点统计组件计算运行天数
 
 	timeZone: SITE_TIMEZONE,
 
@@ -55,7 +55,7 @@ export const siteConfig: SiteConfig = {
 		// 显示模式："text-icon" 显示图标+文本，"logo" 仅显示Logo
 		mode: "text-icon",
 		// 顶栏标题文本
-		text: "MizukiUI",
+		text: "ZERS",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
 		icon: "assets/home/home.webp",
 		// 网站Logo图片路径
@@ -74,7 +74,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	bilibili: {
-		vmid: "your-bilibili-vmid", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
+		vmid: "359800025", // 在此处设置你的Bilibili用户ID (uid)，例如 "1129280784"
 		fetchOnDev: false, // 是否在开发环境下获取 Bilibili 数据（默认 false）
 		coverMirror: "", // 封面图片镜像源（可选，如果需要使用镜像源，例如 "https://images.weserv.nl/?url="）
 		useWebp: true, // 是否使用WebP格式（默认 true）
@@ -162,14 +162,15 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "わたしの部屋", // 主页横幅主标题
+			title: "卓尔伤的小屋", // 主页横幅主标题
 
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"虽然没有什么特别的事，但有你在就足够了",
+				"至今你依然是我的光",
+				"你啊，不知不觉中就成了我的每一天",
+				"和你聊天，总觉得每天都会变得开心一点",
+				"今天是个平凡的日子。不过，是稍微好一点的日子",
+				"你是我心中的烈焰，却没有烈焰那般坚定地爱恋",
 			],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
@@ -273,7 +274,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.Archive,
 		// 支持自定义导航栏链接，支持多级菜单
 		{
-			name: "Links",
+			name: "链接",
 			url: "/links/",
 			icon: "material-symbols:link",
 			children: [
@@ -298,17 +299,17 @@ export const navBarConfig: NavBarConfig = {
 			],
 		},
 		{
-			name: "My",
+			name: "我的",
 			url: "/content/",
 			icon: "material-symbols:person",
 			children: [
 				{
-					name: "Anime",
+					name: "待定",
 					url: "/anime/",
 					icon: "material-symbols:movie",
 				},
 				{
-					name: "Diary",
+					name: "日记",
 					url: "/diary/",
 					icon: "material-symbols:book",
 				},
@@ -318,7 +319,7 @@ export const navBarConfig: NavBarConfig = {
 					icon: "material-symbols:photo-library",
 				},
 				{
-					name: "Devices",
+					name: "设备",
 					url: "/devices/",
 					icon: "material-symbols:devices",
 					external: false,
@@ -326,39 +327,39 @@ export const navBarConfig: NavBarConfig = {
 			],
 		},
 		{
-			name: "About",
+			name: "关于",
 			url: "/content/",
 			icon: "material-symbols:info",
 			children: [
 				{
-					name: "About",
+					name: "关于",
 					url: "/about/",
 					icon: "material-symbols:person",
 				},
 				{
-					name: "Friends",
+					name: "友链",
 					url: "/friends/",
 					icon: "material-symbols:group",
 				},
 			],
 		},
 		{
-			name: "Others",
+			name: "其他",
 			url: "#",
 			icon: "material-symbols:more-horiz",
 			children: [
 				{
-					name: "Projects",
+					name: "项目",
 					url: "/projects/",
 					icon: "material-symbols:work",
 				},
 				{
-					name: "Skills",
+					name: "技能",
 					url: "/skills/",
 					icon: "material-symbols:psychology",
 				},
 				{
-					name: "Timeline",
+					name: "时间线",
 					url: "/timeline/",
 					icon: "material-symbols:timeline",
 				},
