@@ -605,8 +605,8 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 
 	// 侧栏组件布局配置
 	components: {
-		left: ["profile", "announcement", "tags", "card-toc"],
-		right: ["site-stats", "calendar", "categories", "music-sidebar"],
+		left: ["profile", "announcement", "categories", "tags", "card-toc"],
+		right: ["site-stats", "calendar", "music-sidebar"],
 		drawer: [
 			"profile",
 			"announcement",
