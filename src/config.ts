@@ -304,7 +304,7 @@ export const navBarConfig: NavBarConfig = {
 			icon: "material-symbols:person",
 			children: [
 				{
-					name: "待定",
+					name: "番剧",
 					url: "/anime/",
 					icon: "material-symbols:movie",
 				},
@@ -314,7 +314,7 @@ export const navBarConfig: NavBarConfig = {
 					icon: "material-symbols:book",
 				},
 				{
-					name: "Gallery",
+					name: "相册",
 					url: "/albums/",
 					icon: "material-symbols:photo-library",
 				},
@@ -610,7 +610,7 @@ export const sidebarLayoutConfig: SidebarLayoutConfig = {
 		drawer: [
 			"profile",
 			"announcement",
-			"music-sidebar",
+			//"music-sidebar",
 			"categories",
 			"tags",
 		],
