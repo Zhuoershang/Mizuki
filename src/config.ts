@@ -29,8 +29,6 @@ export const siteConfig: SiteConfig = {
 	siteURL: "https://mblog.xian5.de5.net/", // 请替换为你的站点URL，以斜杠结尾
 	siteStartDate: "2026-04-26", // 站点开始运行日期，用于站点统计组件计算运行天数
 
-	timeZone: SITE_TIMEZONE,
-
 	lang: SITE_LANG,
 
 	themeColor: {
