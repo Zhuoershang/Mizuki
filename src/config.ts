@@ -55,9 +55,11 @@ export const siteConfig: SiteConfig = {
 		// 顶栏标题文本
 		text: "ZERS",
 		// 顶栏标题图标路径，默认使用 public/assets/home/home.webp
-		icon: "assets/home/home.webp",
+		// icon: "assets/home/home.webp",
+		icon: "https://imgbed.xian5.de5.net/file/cloudflare-imgbed/zers/1777867138349_Z文字透明.png",
 		// 网站Logo图片路径
-		logo: "assets/home/default-logo.webp",
+		// logo: "assets/home/default-logo.webp",
+		logo: "https://imgbed.xian5.de5.net/file/cloudflare-imgbed/zers/1777866364910_ZERS文字透明.png",
 	},
 
 	// 页面自动缩放配置
@@ -126,7 +128,7 @@ export const siteConfig: SiteConfig = {
 		// 支持单张图片或图片数组，当数组长度 > 1 时自动启用轮播
 		src: {
 			desktop: [
-				"/assets/desktop-banner/1.webp",
+				// "/assets/desktop-banner/1.webp",
 				"/assets/desktop-banner/2.webp",
 				"/assets/desktop-banner/3.webp",
 				"/assets/desktop-banner/4.webp",
@@ -247,7 +249,7 @@ export const siteConfig: SiteConfig = {
 export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 	src: {
 		desktop: [
-			"/assets/desktop-banner/1.webp",
+			// "/assets/desktop-banner/1.webp",
 			"/assets/desktop-banner/2.webp",
 			"/assets/desktop-banner/3.webp",
 			"/assets/desktop-banner/4.webp",
